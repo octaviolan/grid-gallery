@@ -1,0 +1,21 @@
+.map {
+  padding: 8px 16px;
+  background-color: #00A2FF;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.map span {
+  font: var(--body1-bold);
+  color: var(--white);
+}

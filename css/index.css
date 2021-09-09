@@ -1,11 +1,21 @@
+@import './card.css';
+@import './map.css';
+
 :root {
---white: #ffffff; 
---body1-regular: 400 1rem/1.5rem Poppins; 
---body1-bold: 700 1rem/1.5rem Poppins;  
+--white: #ffffff;
+--body1-regular: 400 1rem/1.5rem Poppins;
+--body1-bold: 700 1rem/1.5rem Poppins;
 }
 
 body {
+  font: var(--body1-bold);
   color: var(--white);
-  background-color: var(--primary);
+  margin: 16px;
 }
 
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(161px, 1fr));
+  grid-template-rows: 161px 3px 161px 161px 3px 161px;
+  gap: 16px;
+}
