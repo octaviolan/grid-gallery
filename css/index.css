@@ -10,12 +10,12 @@
 body {
   font: var(--body1-bold);
   color: var(--white);
-  margin: 16px;
+  margin: 16px 11px;
 }
 
 .grid-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(161px, 1fr));
-  grid-template-rows: 161px 3px 161px 161px 3px 161px;
+  grid-template-rows: repeat(3, 161px 3px 161px);
   gap: 16px;
 }

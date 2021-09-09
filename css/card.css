@@ -1,5 +1,4 @@
 .card {
-  /* background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -55,9 +54,47 @@
   background-image: url(../images/Buenos\ Aires.png);
 }
 
+.santiago {
+  background-image: url(../images/Santiago.png);
+}
 
+.pekin {
+  background-image: url(../images/Peki╠ün.png);
+}
+
+.bogota {
+  background-image: url(../images/Bogota╠ü.png);
+}
+
+.seul {
+  background-image: url(../images/Seu╠ül.png);
+}
+
+.habana {
+  background-image: url(../images/La\ Habana.png);
+}
+
+.quito {
+  background-image: url(../images/Quito.png);
+}
+
+.salvador {
+  background-image: url(../images/San\ Salvador.png);
+}
+
+.madrid {
+  background-image: url(../images/Madrid.png);
+}
+
+.mexico {
+  background-image: url(../images/Me╠üxico.png);
+}
 
 .tirana,
-.buenos-aires {
+.buenos-aires,
+.bogota,
+.seul,
+.salvador,
+.madrid {
   grid-row-end: span 2;
 }
