@@ -98,3 +98,35 @@
 .madrid {
   grid-row-end: span 2;
 }
+
+@media screen and (min-width: 768px) {
+  .buenos-aires {
+    grid-row-end: span 1;
+  }
+
+  .santiago {
+    grid-row-end: span 2;
+  }
+
+  .pekin {
+    grid-column-start: 2;
+    grid-row: 3 /span 1;
+  }
+
+  .quito {
+    grid-row: span 2;
+  }
+
+  .salvador {
+    grid-column-start: 1;
+  }
+
+  .madrid {
+    grid-column-start: 2;
+    grid-row: 5 / span 3;
+  }
+
+  .mexico {
+    grid-row-end: span 2;
+  }
+}

@@ -19,3 +19,15 @@ body {
   grid-template-rows: repeat(3, 161px 3px 161px);
   gap: 16px;
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 15px;
+  }
+
+  .grid-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    grid-template-rows: repeat(2, 235px 34px 235px);
+    grid-gap: 20px 16px;
+  }
+}
