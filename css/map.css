@@ -26,3 +26,18 @@
   max-inline-size: 16px;
   max-block-size: 16px;
 }
+
+@media screen and (min-width: 1018px) {
+  .map {
+    padding: 8px 16px;
+  }
+
+  .map span {
+  font: var(--body1-bold);
+  }
+
+  .map img{
+    max-inline-size: 24px;
+    max-block-size: 24px;
+  }
+}

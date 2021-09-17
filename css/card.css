@@ -26,10 +26,6 @@
   opacity: 1;
 }
 
-.card:hover .card-description {
-  opacity: 0;
-}
-
 .card-description {
   display: flex;
   flex-direction: column;
@@ -38,6 +34,9 @@
   transition: opacity .3s;
 }
 
+.card:hover .card-description {
+  opacity: 0;
+}
 .card-description span:nth-child(2) {
   font: var(--body1-regular);
 }
