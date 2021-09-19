@@ -4,6 +4,7 @@
   background-position: center;
   border-radius: 8px;
   padding: 16px;
+  margin: 0;
   display: flex;
   align-items: flex-end;
   position: relative;
@@ -127,5 +128,54 @@
 
   .mexico {
     grid-row-end: span 2;
+  }
+}
+
+@media screen and (min-width: 1018px) {
+  .berlin {
+    grid-row-end: span 2;
+  }
+
+  .tirana {
+    grid-row-end: span 1;
+  }
+
+  .buenos-aires {
+    grid-row-end: span 2;
+  }
+
+  .santiago {
+    grid-row: 3 / span 1;
+  }
+
+  .pekin {
+    grid-row: 2 / span 3;
+  }
+
+  .bogota {
+    grid-row-end: span 1;
+  }
+
+  .habana {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    z-index: 2;
+  }
+
+  .quito {
+    grid-column-start: 3;
+    grid-row: 4 / span 3;
+  }
+
+  .salvador {
+    grid-row-end: span 3;
+  }
+
+  .madrid {
+    grid-row: 6 / span 2;
+  }
+
+  .mexico {
+    grid-row-end: span 1;
   }
 }

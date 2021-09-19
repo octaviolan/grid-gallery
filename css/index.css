@@ -15,9 +15,15 @@ body {
 
 .grid-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(161px, 1fr));
+  grid-template-columns: repeat(2, minmax(161px, 1fr));
   grid-template-rows: repeat(3, 161px 3px 161px);
   gap: 16px;
+}
+
+@media screen and (min-width: 480px){
+  .grid-gallery {
+    grid-template-rows: repeat(3, 217px 59px 217px);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -42,50 +48,4 @@ body {
     grid-template-rows: repeat(4, 350px 52px);
   }
 
-  .berlin {
-    grid-row-end: span 2;
-  }
-
-  .tirana {
-    grid-row-end: span 1;
-  }
-
-  .buenos-aires {
-    grid-row-end: span 2;
-  }
-
-  .santiago {
-    grid-row: 3 / span 1;
-  }
-
-  .pekin {
-    grid-row: 2 / span 3;
-  }
-
-  .bogota {
-    grid-row-end: span 1;
-  }
-
-  .habana {
-    grid-column-start: 2;
-    grid-row-start: 5;
-    z-index: 2;
-  }
-
-  .quito {
-    grid-column-start: 3;
-    grid-row: 4 / span 3;
-  }
-
-  .salvador {
-    grid-row-end: span 3;
-  }
-
-  .madrid {
-    grid-row: 6 / span 2;
-  }
-
-  .mexico {
-    grid-row-end: span 1;
-  }
 }
